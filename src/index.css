@@ -7,11 +7,7 @@
 }
 
 body {
-  background: linear-gradient(
-    0deg,
-    rgba(195, 126, 34, 1) 0%,
-    rgba(234, 253, 45, 0.5) 100%
-  );
+  background-color: #dcb7f4;
 }
 
 .App {
@@ -24,7 +20,7 @@ body {
 
 .c-player {
   display: block;
-  background-image: linear-gradient(to bottom, violet, indigo);
+  background-color: white;
   margin: 0px auto;
   padding: 30px;
   border-radius: 16px;
@@ -41,7 +37,7 @@ body {
 }
 
 .c-player > p {
-  color: #aaa;
+  color: #1d0430;
   font-size: 14px;
   text-align: center;
   font-weight: 600;
@@ -82,16 +78,14 @@ body {
 }
 
 .c-player--details .details-title {
-  color: #eee;
+  color:#54366b;
   font-size: 28px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8),
-    -2px -2px 4px rgba(255, 255, 255, 0.4);
   text-align: center;
   margin-bottom: 10px;
 }
 
 .c-player--details .details-artist {
-  color: #aaa;
+  color: #54366b;
   font-size: 20px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8),
     -2px -2px 4px rgba(255, 255, 255, 0.4);
@@ -117,14 +111,14 @@ body {
     inset 4px 4px 10px rgba(255, 255, 255, 0.4);
   border: none;
   outline: none;
-  background-color: #ffce00;
-  color: #fff;
+  background-color: #6f587e;
+  color:#3f1263;
   font-size: 24px;
   cursor: pointer;
 }
 
 .c-player--controls .play-btn:hover {
-  color: #ffce00;
+  color:#3f1263;
   background-color: inherit;
 }
 
@@ -134,22 +128,19 @@ body {
   outline-width: 0;
   opacity: 0.4;
 }
-
 .c-player--controls .skip-btn {
   background: none;
   border: none;
   outline: none;
   cursor: pointer;
-  color: #888;
+  color: #54366b;
   font-size: 18px;
 }
 .c-player--controls .skip-btn:hover {
   transition: 0.5s ease-in-out;
   transform: scale(1.1);
-  color: white;
+  color: #54366b;
   background-color: inherit;
 }
 
-audio::-webkit-media-controls-play-button {
-  display: none;
-}
+
