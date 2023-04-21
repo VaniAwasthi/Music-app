@@ -10,10 +10,22 @@ function App() {
       src: "./music/Titliaan Warga.mp3",
     },
     {
+      title: "Shape of you",
+      artist: "Ed Sheeran ",
+      img_src: "./images/shade of you.jpeg",
+      src: "./music/Shape-Of-You-(Remix)_64(PagalWorld).mp3",
+    },
+    {
       title: "Nach Meri Rani",
       artist: "Yo Yo Honey Singh",
       img_src: "./images/nach-meri-rani.jpg",
       src: "./music/Naach Meri Rani.mp3",
+    },
+    {
+      title: "Lag ja gale",
+      artist: "Lata mangeshkar",
+      img_src: "./images/lag ja.jpeg",
+      src: "./music/old_lata_mangeshkar_woh_kaun_thi_lag_ja_gale.mp3",
     },
     {
       title: "Care Ni Karda",
