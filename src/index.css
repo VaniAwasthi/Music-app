@@ -20,7 +20,7 @@ body {
 
 .c-player {
   display: block;
-  background-color: white;
+  background-color: black;
   margin: 0px auto;
   padding: 30px;
   border-radius: 16px;
@@ -60,35 +60,32 @@ body {
   object-fit: contain;
   width: 100%;
   max-width: 250px;
-  border-radius: 50%;
+  border-radius: 5%;
   box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.8),
     -6px -6px 12px rgba(255, 255, 255, 0.4);
 }
 
-.c-player--details .details-img:after {
-  content: "";
+/* .c-player--details .details-img:after {
+
   display: block;
   position: absolute;
   top: -25px;
   left: -25px;
   right: -25px;
   bottom: -25px;
-  border-radius: 50%;
-  border: 3px dashed rgba(255, 206, 0, 1);
-}
+  border-radius:2%;
+} */
 
 .c-player--details .details-title {
-  color:#54366b;
+  color:white;
   font-size: 28px;
   text-align: center;
   margin-bottom: 10px;
 }
 
 .c-player--details .details-artist {
-  color: #54366b;
+  color: white;
   font-size: 20px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8),
-    -2px -2px 4px rgba(255, 255, 255, 0.4);
   text-align: center;
   margin-bottom: 20px;
 }
@@ -102,44 +99,37 @@ body {
 
 .c-player--controls .play-btn {
   display: flex;
-  margin: 0 30px;
+  margin: 2px 30px;
   padding: 20px;
   border-radius: 50%;
-  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8),
-    -4px -4px 10px rgba(255, 255, 255, 0.4),
-    inset -4px -4px 10px rgba(0, 0, 0, 0.4),
-    inset 4px 4px 10px rgba(255, 255, 255, 0.4);
   border: none;
   outline: none;
-  background-color: #6f587e;
-  color:#3f1263;
+  color:black;
+  background-color: yellow;
   font-size: 24px;
   cursor: pointer;
 }
 
 .c-player--controls .play-btn:hover {
-  color:#3f1263;
-  background-color: inherit;
+  color:white;
 }
 
 .c-player--audio {
-  margin-top: -20px;
+  margin-top: 5px;
   margin-bottom: 5px;
-  outline-width: 0;
-  opacity: 0.4;
 }
 .c-player--controls .skip-btn {
   background: none;
   border: none;
   outline: none;
   cursor: pointer;
-  color: #54366b;
+  color: yellow;
   font-size: 18px;
 }
 .c-player--controls .skip-btn:hover {
   transition: 0.5s ease-in-out;
   transform: scale(1.1);
-  color: #54366b;
+  color: white;
   background-color: inherit;
 }
 

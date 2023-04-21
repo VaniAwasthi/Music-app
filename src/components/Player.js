@@ -44,17 +44,17 @@ function Player(props) {
     <div className="c-player">
       <h4>Playing now</h4>
       <Details song={props.songs[props.currentSongIndex]} />
-      <Controls
-        isPlaying={isPlaying}
-        setIsPlaying={setIsPlaying}
-        SkipSong={SkipSong}
-      />
       <audio
         className="c-player--audio"
         src={props.songs[props.currentSongIndex].src}
         ref={audioEl}
         controls
       ></audio>
+      <Controls
+        isPlaying={isPlaying}
+        setIsPlaying={setIsPlaying}
+        SkipSong={SkipSong}
+      />
       <p>
         Next up:{" "}
         <span>
