@@ -16,6 +16,12 @@ function App() {
       src: "./music/Shape-Of-You-(Remix)_64(PagalWorld).mp3",
     },
     {
+      title: "Sach keh rha hai deewana",
+      artist: "KK",
+      img_src: "./images/sch keh rha deewana.jpeg",
+      src: "./music/Such Keh Raha Hai - Rehnaa Hai Terre Dil Mein 128 Kbps.mp3",
+    },
+    {
       title: "Nach Meri Rani",
       artist: "Yo Yo Honey Singh",
       img_src: "./images/nach-meri-rani.jpg",
