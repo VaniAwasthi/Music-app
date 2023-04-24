@@ -46,6 +46,12 @@ function App() {
       src: "./music/Care Ni Karda.mp3",
     },
     {
+      title: "Tujhe kitna chahein aur",
+      artist: "Jubin Nautiyal , Mithoon",
+      img_src: "./images/kabir sing.jpg",
+      src: "./music/Tujhe Kitna Chahein Aur - Jubin.mp3",
+    },
+    {
       title: "Zehnaseeb",
       artist: " Chinmayi and Shekhar Ravjiani",
       img_src: "./images/Zehnaseeb.jpeg",
