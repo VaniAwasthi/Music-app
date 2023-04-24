@@ -28,6 +28,12 @@ function App() {
       src: "./music/Naach Meri Rani.mp3",
     },
     {
+      title: "Bekhayali",
+      artist: "Sachet Tandon",
+      img_src: "./images/kabir sing.jpg",
+      src: "./music/Bekhayali - Kabir Singh.mp3",
+    },
+    {
       title: "Lag ja gale",
       artist: "Lata mangeshkar",
       img_src: "./images/lag ja.jpeg",
